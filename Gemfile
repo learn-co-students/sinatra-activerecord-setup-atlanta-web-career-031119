@@ -11,7 +11,9 @@ gem 'require_all'
 
 group :development do
 	gem 'shotgun'
-	gem 'pry'
+  gem 'pry'
+  gem 'sqlite3', '~> 1.3.1'
+  gem 'tux'
 end
     
 group :test do
